@@ -3,11 +3,13 @@ img {
     z-index: -1;
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 
   nav {
     position: absolute;
     z-index: 1;
+
   }
 
   h1 {
@@ -22,21 +24,12 @@ img {
     margin-left: 40%;
   }
 
-  h4 {
-    font-family: 'Kantumruy Pro', sans-serif;
-    color: #413125;
-    font-weight: 900;
-    position: absolute;
-    z-index: 2;
-    margin-left: 88%;
-    margin-top: 1%;
-  }
-
   footer{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 1rem;
+    z-index: 2;
   }
 
 .container {
