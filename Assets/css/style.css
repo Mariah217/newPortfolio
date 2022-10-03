@@ -1,3 +1,4 @@
+/* background image */
 img {
     position: absolute;
     z-index: -1;
@@ -6,12 +7,13 @@ img {
     object-fit: cover;
   }
 
+  /* navbar */
   nav {
     position: absolute;
     z-index: 1;
-
   }
 
+  /* my name  */
   h1 {
     color: #413125;
     opacity: 80%;
@@ -24,30 +26,27 @@ img {
     margin-left: 40%;
   }
 
+  /* footer with icons/links */
   footer{
-    position: absolute;
+    position:absolute;
     bottom: 0;
     width: 100%;
     height: 1rem;
-    z-index: 2;
+    justify-content: center;
   }
 
-.container {
-    color: #413125;
-    display: inline-block;
-    cursor: pointer;
-    position: absolute;
-    z-index: 1;
-    margin-left: 95%;
-    margin-top: 1%;
+  .icons {
+    margin-bottom: 3%;
   }
-  
 
-  #me {
-    margin: 225px 0px 0px 850px;
-    display: block;
+/*portfolio image of me 
+I cant get my profile image to stay centered when trying to make it mobile responsive */
+  .responsive {
     width: 15%;
-    height: 30%; 
+    height: auto;
     border-radius: 50%;
+    display: block;
     transform: rotate(18deg);
+    margin-top: 12%;
+    margin-left: 42%;
   }

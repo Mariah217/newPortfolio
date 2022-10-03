@@ -26,7 +26,6 @@
     <title>Mariah's New Portfolio</title>
   </head>
   <body>
-
     <!-- nav bar -->
     <containter class="d-flex flex-row-reverse bd-highlight">
       <nav>
@@ -47,36 +46,53 @@
       </nav>
     </containter>
 
-    <!-- name and background image -->
-    <h1>Mariah Johnston</h1>
-    <img
-      src="Assets/images/image3.jpg"
-      alt="computer, pen, notepad and coffee"
-    />
-    <img
-      id="me"
-      src="Assets/images/Me.png"
-      alt="picture of me"
-      class="center"
-    />
+    <!-- name, profile picture and background image -->
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <h1>Mariah Johnston</h1>
+        <div class="parent">
+          <img
+            src="Assets/images/image3.jpg"
+            alt="computer, pen, notepad and coffee"
+          />
+          <img
+            id="me"
+            src="Assets/images/Me.png"
+            alt="picture of me"
+            class="responsive center"
+          />
+        </div>
+      </div>
+    </div>
+  
 
     <!-- footer icons for github, linkin, twitter -->
     <footer class="icons">
-        <a href="https://github.com/Mariah217">
-          <figure class="font-awesome">
-            <i class="fa-brands fa-github"></i>
-          </figure>
-        </a>
-        <a href="https://www.linkedin.com/in/mariah-johnston-5b2a9212b/">
-          <figure class="font-awesome">
-            <i class="fa-brands fa-linkedin"></i>
-          </figure>
-        </a>
-        <a href="https://twitter.com/Riah_17">
-          <figure class="font-awesome">
-            <i class="fa-brands fa-twitter"></i>
-          </figure>
-        </a>
+      <div class="row">
+        <div class="col-sm-2 col-md-2">
+          <div class="d-flex justify-content-center">
+            <a href="https://github.com/Mariah217">
+              <figure class="font-awesome">
+                <i class="fa-brands fa-github"></i>
+              </figure>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2">
+          <a href="https://www.linkedin.com/in/mariah-johnston-5b2a9212b/">
+            <figure class="font-awesome">
+              <i class="fa-brands fa-linkedin"></i>
+            </figure>
+          </a>
+        </div>
+        <div class="col-sm-1 col-md-1">
+          <a href="https://twitter.com/Riah_17">
+            <figure class="font-awesome">
+              <i class="fa-brands fa-twitter"></i>
+            </figure>
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
   <script src="/script.js"></script>
