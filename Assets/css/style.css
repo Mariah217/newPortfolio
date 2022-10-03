@@ -5,6 +5,7 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: flex;
   }
 
   /* navbar */
@@ -39,6 +40,14 @@ img {
     margin-bottom: 3%;
   }
 
+  .fa-brands{
+    color: #2b542d;
+  }
+
+  #icons {
+    justify-content: center;
+  }
+
 /*portfolio image of me 
 I cant get my profile image to stay centered when trying to make it mobile responsive */
   .responsive {
@@ -47,6 +56,6 @@ I cant get my profile image to stay centered when trying to make it mobile respo
     border-radius: 50%;
     display: block;
     transform: rotate(18deg);
-    margin-top: 12%;
+    margin-top: 9%;
     margin-left: 42%;
   }
