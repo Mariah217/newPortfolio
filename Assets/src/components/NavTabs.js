@@ -42,3 +42,5 @@ function NavTabs({ currentPage, handlePageChange }) {
         </div>
     )
 }
+
+export default NavTabs;

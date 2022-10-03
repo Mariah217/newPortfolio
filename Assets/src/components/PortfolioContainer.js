@@ -17,10 +17,8 @@ const renderPage = () => {
     if (currentPage === 'Portfolio') {
         return <Portfolio/>;
     }
-    if (currentPage === 'Resume'){
         return <Resume/>;
     }
-}; 
 
 const handlePageChange = (page) => setCurrentPage(page);
 
