@@ -6,6 +6,7 @@ img {
     height: 100%;
     object-fit: cover;
     display: flex;
+    box-shadow: 2px 2px 18px #413125;
   }
 
   /* navbar */
@@ -20,9 +21,10 @@ img {
     opacity: 80%;
     position: absolute;
     z-index: 1;
-    font-family: 'Kantumruy Pro', sans-serif;
-    font-size: 55px;
-    text-shadow: 2px 5px 5px #231a14;
+    /* font-family: 'Kantumruy Pro', sans-serif; */
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    /* text-shadow: 2px 5px 5px #231a14; */
     margin-top: 5%;
     margin-left: 40%;
   }
@@ -36,17 +38,40 @@ img {
     justify-content: center;
   }
 
+  /* about me title */
+  h5{
+    text-align: center;
+  }
+
+  /* about me card */
+  .card {
+    color: #413125;
+    position: absolute;
+    z-index: 2;
+    margin-top: 28%;
+    /* need to figure out how to center this properly */
+    margin-left: 34%;
+    box-shadow: 5px 5px 18px #413125;
+    /* text-align: center; */
+  }
+
+  /* icons */
   .icons {
-    margin-bottom: 3%;
+    margin-bottom: 2%;
   }
 
   .fa-brands{
     color: #2b542d;
   }
 
+  #about-me{
+    display: flex;
+  }
+
   #icons {
     justify-content: center;
   }
+
 
 /*portfolio image of me 
 I cant get my profile image to stay centered when trying to make it mobile responsive */
@@ -56,6 +81,6 @@ I cant get my profile image to stay centered when trying to make it mobile respo
     border-radius: 50%;
     display: block;
     transform: rotate(18deg);
-    margin-top: 9%;
+    margin-top: 11%;
     margin-left: 42%;
   }
