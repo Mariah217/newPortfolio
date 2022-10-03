@@ -11,20 +11,22 @@ img {
 
   /* navbar */
   nav {
+    font-size: 18px;
     position: absolute;
     z-index: 1;
   }
 
+  .nav-link:hover{
+    color: #3a713c;
+  }
   /* my name  */
   h1 {
     color: #413125;
     opacity: 80%;
     position: absolute;
     z-index: 1;
-    /* font-family: 'Kantumruy Pro', sans-serif; */
     font-family: 'Sacramento', cursive;
     font-size: 80px;
-    /* text-shadow: 2px 5px 5px #231a14; */
     margin-top: 5%;
     margin-left: 40%;
   }
@@ -40,6 +42,9 @@ img {
 
   /* about me title */
   h5{
+    font-family: 'Sacramento', cursive;
+    font-size: 32px;
+    font-weight: 500;
     text-align: center;
   }
 
@@ -48,9 +53,9 @@ img {
     color: #413125;
     position: absolute;
     z-index: 2;
-    margin-top: 28%;
+    margin-top: 15%;
     /* need to figure out how to center this properly */
-    margin-left: 34%;
+    margin-left: 55%;
     box-shadow: 5px 5px 18px #413125;
     /* text-align: center; */
   }
@@ -61,7 +66,7 @@ img {
   }
 
   .fa-brands{
-    color: #2b542d;
+    color: #3a713c;
   }
 
   #about-me{
@@ -76,11 +81,11 @@ img {
 /*portfolio image of me 
 I cant get my profile image to stay centered when trying to make it mobile responsive */
   .responsive {
-    width: 15%;
+    width: 17%;
     height: auto;
     border-radius: 50%;
     display: block;
     transform: rotate(18deg);
-    margin-top: 11%;
-    margin-left: 42%;
+    margin-top: 15%;
+    margin-left: 33%;
   }
