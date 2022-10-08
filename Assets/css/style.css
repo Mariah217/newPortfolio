@@ -6,7 +6,7 @@ img {
     height: 100%;
     object-fit: cover;
     display: flex;
-    box-shadow: 2px 2px 18px #413125;
+    /* box-shadow: 2px 2px 18px #413125; */
   }
 
   /* navbar */
