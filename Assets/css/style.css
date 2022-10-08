@@ -9,7 +9,6 @@ img {
     box-shadow: 2px 2px 18px #413125;
   }
 
-
   /* navbar */
   nav {
     font-size: 18px;
@@ -30,16 +29,6 @@ img {
     font-size: 80px;
     margin-top: 5%;
     margin-left: 40%;
-  }
-
-  /* contact title */
-  h2 {
-    color: #413125;
-    opacity: 80%;
-    position: absolute;
-    z-index: 1;
-    font-family: 'Sacramento', cursive;
-    font-size: 80px;
   }
 
   /* footer with icons/links */
@@ -63,15 +52,22 @@ img {
   .contactForm{
     color: #413125;
     font-family: 'Sacramento', cursive;
+    position: absolute;
+    z-index: 0;
     font-weight: 500;
     font-size: 32px;
     margin-top: 9%;
-    margin-left: 3%;
   }
 
+  /* form border and font */
+.form-control{
+  position: absolute;
+  z-index: 0;
+  border-width: 2px;
+  border-color: #413125;
+}
 .form-control-sm, .form-control{
   font-family: serif;
-  
 }
 
   /* about me card */
@@ -88,6 +84,9 @@ img {
 
   /* submit button contact form */
   .btn{
+    position: absolute;
+    z-index: 1;
+    font-family: serif;
     margin-top: 1%;
   }
 
