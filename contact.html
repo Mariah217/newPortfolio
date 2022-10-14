@@ -26,83 +26,79 @@
       href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
 
     <title>Contact Me</title>
   </head>
   <body>
-
-      <!-- nav bar -->
-      <div class="row">
-        <div class="col-sm-12 col-md-12">
-          <containter class="d-flex flex-row-reverse bd-highlight">
-            <nav>
-              <ul class="nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link">Resume</a>
-                </li>
-              </ul>
-            </nav>
-          </containter>
-        </div>
+    <!-- nav bar -->
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <containter class="d-flex flex-row-reverse bd-highlight">
+          <nav>
+            <ul class="nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Resume</a>
+              </li>
+            </ul>
+          </nav>
+        </containter>
       </div>
+    </div>
 
     <!-- background image -->
     <div class="row">
-        <div class="col-sm-12 col-md-12">
-          <h1>Contact</h1>
-          <div class="parent">
-            <img class="background"
-              src="../images/image3.jpg"
-              alt="computer, pen, notepad and coffee"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- contact form  -->
-      <div class="contactForm">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Name:</label>
-          <br />
-          <input
-            type="name"
-            class="form-control-sm"
-            id="exampleFormControlInput1"
-            placeholder="Jane Doe"
+      <div class="col-sm-12 col-md-12">
+        <h1>Contact</h1>
+        <div class="parent">
+          <img
+            class="background"
+            src="./Assets/images/image3.jpg"
+            alt="computer, pen, notepad and coffee"
           />
         </div>
+      </div>
+    </div>
+
+    <!-- contact form  -->
+        
+<container class="contactform">
+    <div class="row" id="contact-form">
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"
-            >Email address:</label
-          >
-          <br />
-          <input
-            type="email"
-            class="form-control-sm"
-            id="exampleFormControlInput1"
-            placeholder="name@example.com"/>
+            <label for="exampleFormControlInput1" class="form-label">Name:</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+            <br>
+            <br>
+          </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <br>
+            <br>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+          </div>
+          <div class="submitButton">
+            <button type="button" class="btn btn-success">Submit</button>
         </div>
+    </div>
+</container>
 
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label"
-            >Message:</label>
 
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="12"></textarea>
 
-          <button type="button" class="btn btn-success">Submit</button>
+
+
         </div>
       </div>
     </div>

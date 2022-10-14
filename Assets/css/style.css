@@ -31,6 +31,7 @@ img {
     margin-left: 40%;
   }
 
+
   /* footer with icons/links */
   footer{
     position:absolute;
@@ -48,15 +49,17 @@ img {
     text-align: center;
   }
 
-  /*contact form*/
-  .contactForm{
+ 
+  .contactform {
+    display: flex;
     color: #413125;
     font-family: 'Sacramento', cursive;
     position: absolute;
     z-index: 0;
     font-weight: 500;
     font-size: 32px;
-    margin-top: 9%;
+    margin-top: 12%;
+    margin-left: 38%;
   }
 
   /* form border and font */
@@ -87,7 +90,7 @@ img {
     position: absolute;
     z-index: 1;
     font-family: serif;
-    margin-top: 1%;
+    margin-top: 50%;
   }
 
   /* icons */
@@ -105,6 +108,10 @@ img {
 
   #icons {
     justify-content: center;
+  }
+
+  #name, #email, #message {
+   
   }
 
 
