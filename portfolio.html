@@ -20,15 +20,12 @@
       href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Kantumruy+Pro:wght@200&family=Quicksand:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./Assets/css/style.css" />
-
-    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/style.css" />
+    
+    <title>Mariah's New Portfolio</title>
   </head>
   <body>
     <!-- nav bar -->
@@ -55,43 +52,30 @@
       </div>
     </div>
 
-    <!-- background image -->
+    <!-- name, profile picture and background image -->
     <div class="row">
       <div class="col-sm-12 col-md-12">
-        <h1>Contact</h1>
+        <h1>Portfolio</h1>
         <div class="parent">
           <img
-            class="background"
-            src="./Assets/images/image3.jpg"
+            src="Assets/images/image3.jpg"
             alt="computer, pen, notepad and coffee"
           />
         </div>
       </div>
     </div>
 
-    <!-- contact form  -->
-        
-<container class="contactform">
-    <div class="row" id="contact-form">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Name:</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
-            <br>
-            <br>
+    <!-- Portfolio Cards  -->
+
+    <div class="row">
+        <div class="card" style="width: 18rem;">
+            <img src="./Assets/images/Flicks Screenshot.PNG" class="card-img-top" alt="flicks movie generator">
+            <div class="card-body">
+                <h5 class="card-title">Flicks Movie Generator</h5>
+              <p class="card-text">Can't decide on what movie to watch? Flicks randomizes 5 movies from whichever genre you select, to help narrow down your search!</p>
+            </div>
           </div>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            <br>
-            <br>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-          </div>
-          <div class="submitButton">
-            <button type="button" class="btn btn-success">Submit</button>
-        </div>
     </div>
-</container>
+
+  </body>
 </html>
