@@ -122,7 +122,15 @@
   box-shadow: 5px 5px 18px #413125;
 }
 
-#flicks-title {
+#weathercard {
+  font-size: 15px;
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 45%;
+  box-shadow: 5px 5px 18px #413125;
+}
+
+#flicks-title, #weatherdashtitle {
   font-size: 25px;
   font-weight: 600;
 }
