@@ -1,22 +1,8 @@
-/* background image */
-img {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: flex;
-    /* box-shadow: 2px 2px 18px #413125; */
-  }
-
   /* navbar */
   nav {
     font-size: 18px;
     position: absolute;
     z-index: 1;
-  }
-  .nav-link:hover{
-    color: #3a713c;
   }
 
   /* my name  */
@@ -49,6 +35,19 @@ img {
     text-align: center;
   }
 
+  /* background image */
+.backgroundimg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+
+  .nav-link:hover{
+    color: #3a713c;
+  }
  
   .contactform {
     display: flex;
@@ -73,8 +72,17 @@ img {
   font-family: serif;
 }
 
-  /* about me card */
-  #aboutmecard {
+/* icons */
+.icons {
+    margin-bottom: 2%;
+}
+
+.fa-brands{
+    color: #3a713c;
+}
+
+/* about me card */
+#aboutmecard {
     color: #413125;
     position: absolute;
     z-index: 2;
@@ -82,48 +90,52 @@ img {
     /* need to figure out how to center this properly */
     margin-left: 55%;
     box-shadow: 5px 5px 18px #413125;
-    /* text-align: center; */
-  }
+    }
 
-  #flickscard {
+/* submit button contact form */
+#messagebtn{
   position: absolute;
-  margin-top: 15%;
+  z-index: 1;
+  font-family: serif;
+  margin-top: 50%;
+  background-color: #3a713c;
+}
+
+#selectbtn {
+ background-color: #3a713c;
+ margin-left: 35%;
+}
+
+#about-me{
+ display: flex;
+ }
+
+#icons {
+  justify-content: center;
+}
+
+#flickscard {
+  font-size: 15px;
+  position: absolute;
+  margin-top: 12%;
   margin-left: 25%;
-  }
+  box-shadow: 5px 5px 18px #413125;
+}
 
-  /* submit button contact form */
-  .btn{
-    position: absolute;
-    z-index: 1;
-    font-family: serif;
-    margin-top: 50%;
-  }
-
-  /* icons */
-  .icons {
-    margin-bottom: 2%;
-  }
-
-  .fa-brands{
-    color: #3a713c;
-  }
-
-  #about-me{
-    display: flex;
-  }
-
-  #icons {
-    justify-content: center;
-  }
-
-  #name, #email, #message {
-   
-  }
-
-
+#flicks-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+  
 /*portfolio image of me 
 I cant get my profile image to stay centered when trying to make it mobile responsive */
-  .responsive {
+  #me {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
     width: 17%;
     height: auto;
     border-radius: 50%;
