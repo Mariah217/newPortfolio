@@ -103,7 +103,7 @@
 
 #selectbtn {
  background-color: #3a713c;
- margin-left: 35%;
+ margin-left: 25%;
 }
 
 #about-me{
@@ -165,6 +165,10 @@
 #flicks-title, #weatherdashtitle, #storylinestitle, #employeetrackertitle, #codequiztitle, #thronetitle {
   font-size: 25px;
   font-weight: 600;
+}
+
+#flicksgit {
+ margin: 15px, 0px, 0px, 5px
 }
   
 /*portfolio image of me 

@@ -37,3 +37,5 @@ function Footer({ currentPage, handlePagechange }) {
         </>
     )
 }
+
+export default Footer;
